@@ -6,4 +6,11 @@ then echo "employeepresent"
 else echo "absent"
 fi
 
+wph=20
+fd=8
+
+dw=$((wph*fd))
+echo $dw
+
+
 
