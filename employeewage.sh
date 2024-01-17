@@ -1,8 +1,8 @@
-wph=20
 fd=8
-
-dw=$((wph*fd))
-echo $dw
+wph=20
+pd=8
+dw=$((($fd+$pd)*wph))
+echo "$dw"
 
 
 
